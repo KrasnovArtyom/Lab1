@@ -1,0 +1,4 @@
+M,algo1_two_pointers_time,algo1_two_pointers_steps,algo2_binary_search_time,algo2_binary_search_steps,algo3_exponential_time,algo3_exponential_steps,algo4_double_binary_time,algo4_double_binary_steps
+1000000,0.002024500,1000000,0.000000200,21,0.000000100,40,0.000001200,420
+10000000,0.020896500,10000000,0.000000100,25,0.000000100,46,0.000001600,500
+100000000,0.213127400,100000000,0.000000200,28,0.000000300,53,0.000001800,560
