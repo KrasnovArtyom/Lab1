@@ -101,7 +101,7 @@ bool rec(int* n, int lo_n, int hi_n,
     if (pos < hi_m && m[pos] == n[mid]) return true; //пооверка pos < hi_m нужна, чтобы проверить выход за границу массива m
     return rec(n, lo_n, mid, m, lo_m, pos) || rec(n, mid + 1, hi_n, m, pos, hi_m);
 }
-//logN*logM?
+//NlogM?
 bool algorithm4(int* n, int N, int* m, int M) {
     steps_alg4 = 0;
     // Обеспечиваем N <= M
