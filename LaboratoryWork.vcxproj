@@ -139,14 +139,14 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="algs.cpp" />
-    <ClCompile Include="bench.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="test_correctness.cpp" />
-    <ClCompile Include="test_random.cpp" />
+    <ClCompile Include="src\algs.cpp" />
+    <ClCompile Include="src\bench.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\test_correctness.cpp" />
+    <ClCompile Include="src\test_random.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="algs.h" />
+    <ClInclude Include="src\algs.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

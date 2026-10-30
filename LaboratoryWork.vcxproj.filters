@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\algs.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test_correctness.cpp">
+    <ClCompile Include="src\bench.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test_random.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="bench.cpp">
+    <ClCompile Include="src\test_correctness.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="algs.cpp">
+    <ClCompile Include="src\test_random.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="algs.h">
+    <ClInclude Include="src\algs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
